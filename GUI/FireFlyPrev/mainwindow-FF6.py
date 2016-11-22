@@ -19,11 +19,11 @@ class window(QDialog):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    widget = window()
-    widget.show()
+  #  widget = window()
+  #  widget.show()
     ready = 0
 PPM = 0
-arduino = serial.Serial('COM3',9600)            #open selected COM, Arduino Uno is connected
+#arduino = serial.Serial('COM3',9600)            #open selected COM, Arduino Uno is connected
 time.sleep(2)
 os.system('cls')
 print("Connection to COM3 established\n")

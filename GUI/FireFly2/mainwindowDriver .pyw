@@ -26,6 +26,7 @@ class MainWindow(QWidget):
         global programList
         global file
         choice = str(-1)
+        self.setWindowTitle("FireFly V2.2")
         #self.timer = QTimer(self)
         #self.timer.interval(1000)            
 #       mainwindow size restrictions      
@@ -37,6 +38,7 @@ class MainWindow(QWidget):
         self.frame = QScrollArea(self)
         self.frame.setGeometry(195,90,290,255)
         self.frame.setStyleSheet("background-color:transparent")
+
 
 #       create frame and scrollArea for selecting presets 
         self.scroll = QScrollArea(self)

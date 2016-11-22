@@ -1,9 +1,10 @@
 FireFly Version 0.1
 Included:
-	MainWindowDriver.py
-	FireFly1.ino
+	mainwindowDriver.pyw
+	FireFly2.ino
 	README.txt
 	LEDSchematic.png
+	startup.txt
 
 Brief: 
 	This program is designed to control LED's that are connected from a PC
